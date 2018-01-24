@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ButtonText"
-        tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="278dp" />
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="366dp" />
 
 </android.support.constraint.ConstraintLayout>

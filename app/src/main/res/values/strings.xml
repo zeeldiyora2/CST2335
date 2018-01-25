@@ -1,6 +1,12 @@
 <resources>
-    <string name="app_name">Lab1</string>
+    <string name="app_name">Lab2</string>
     <string name="hello_message">Hello World!</string>
     <string name="ButtonText">I\’m a button</string>
+
+    <string name="login">Login</string>
+    <string name="loginname">Login Name</string>
+    <string name="pass">Password</string>
+    <string name="password">Password</string>
+
 </resources>
 

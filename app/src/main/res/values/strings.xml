@@ -8,5 +8,15 @@
     <string name="pass">Password</string>
     <string name="password">Password</string>
 
+    <string name="radio">RadioButton</string>
+    <string name="check">CheckBox</string>
+    <string name="what">What does this do</string>
+
+    <string name="dialog_title">Hello</string>
+    <string name="dialog_message">Do you want to exit?</string>
+    <string name ="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="response">Here is my Response</string>
+
 </resources>
 

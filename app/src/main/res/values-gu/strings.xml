@@ -9,4 +9,15 @@
     <string name="pass">પાસવર્ડ</string>
     <string name="password">પાસવર્ડ</string>
 
+    <string name="radio">રેડીયો બટન</string>
+    <string name="check">ચેકબોક્સ</string>
+    <string name="what">આ શું કરે છે?</string>
+
+    <string name="dialog_title">હેલો</string>
+    <string name="dialog_message">શું તમે બહાર નીકળવા માંગો છો?</string>
+    <string name ="yes">હા</string>
+    <string name="no">ના</string>
+    <string name="response">અહીં મારો પ્રતિભાવ છે</string>
+
+
 </resources>

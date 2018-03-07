@@ -19,5 +19,7 @@
     <string name="no">ના</string>
     <string name="response">અહીં મારો પ્રતિભાવ છે</string>
 
+    <string name="start">ચેટ પ્રારંભ કરો</string>
+    <string name="send">મોકલો</string>
 
 </resources>

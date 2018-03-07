@@ -14,6 +14,7 @@ public class StartActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
         Log.i(ACTIVITY_NAME,"In OnCreate()");
+
         Button startbtn = (Button) findViewById(R.id.button);
         startbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -23,6 +24,17 @@ public class StartActivity extends Activity {
                 startActivityForResult(intent,50);
             }
         });
+
+        Button chatBtn = (Button) findViewById(R.id.startchatbtn);
+        chatBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent2 = new Intent(StartActivity.this,ChatWindow.class);
+                startActivity(intent2);
+                startActivityForResult(intent2,50);
+            }
+        });
+
     }
 
     protected void onActivityResult(int requestCode, int responseCode){

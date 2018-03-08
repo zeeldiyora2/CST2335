@@ -20,7 +20,7 @@ public class StartActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(StartActivity.this,ListItemsActivity.class);
-                startActivity(intent);
+                //startActivity(intent);
                 startActivityForResult(intent,50);
             }
         });
@@ -30,7 +30,7 @@ public class StartActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Intent intent2 = new Intent(StartActivity.this,ChatWindow.class);
-                startActivity(intent2);
+                //startActivity(intent2);
                 startActivityForResult(intent2,50);
             }
         });

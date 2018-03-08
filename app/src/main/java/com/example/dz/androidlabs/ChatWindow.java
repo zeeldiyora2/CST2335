@@ -119,7 +119,12 @@ public class ChatWindow extends Activity {
         public long getId(int position){
             return position;
         }
+    }
 
-
+    @Override
+    protected void onDestroy()
+    {
+        super.onDestroy();
+        db.close();
     }
 }
